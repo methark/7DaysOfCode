@@ -1,4 +1,6 @@
-# 7DaysOfCode
+![7daysofcode](https://github.com/user-attachments/assets/3466169c-52a0-4192-bc9a-f500aabe6e7d)
+
+#7DaysOfCode
 Esta é uma sequencia de códigos referentes ao desafio #7DaysOfCode. Cada pasta conterá a solução respectiva.
 1. <b>Check-Data-Types</b>: Detecta e retorna o tipo de dado em um array.
 
