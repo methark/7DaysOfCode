@@ -2,7 +2,7 @@
 
 # 7DaysOfCode
 Esta é uma sequencia de códigos referentes ao desafio #7DaysOfCode. Cada pasta conterá a solução respectiva.
-1. <b>Check-Data-Types</b>: Detecta e retorna o tipo de dado em um array.
+1. <b>Check-Data-Types</b>: Compara o tipo de dado e o próprio valor de duas variáveis por vez, retornando se as duas são "iguais" em valor e em tipo (numérico, booleano, ou string).
 
 ## Link Para a Página Principal
 [https://7-days-of-code-topaz-omega.vercel.app/](https://7-days-of-code-topaz-omega.vercel.app/)
