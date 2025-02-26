@@ -20,7 +20,7 @@ for(i = 0; i < numeros.length; i++) // Retorna os resultados no prompt.
         resultado = "A variável " + numeros[i] + " é do tipo " + (typeof numeros[i]) + "." + varDif(i, i + 1);
     }
 
-    console.log(resultado);
+    console.log(resultado.replaceAll(".undefined","."));
     document.getElementById("resultado").innerHTML += resultado.replaceAll(".undefined",".");  
 }
 
