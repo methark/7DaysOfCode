@@ -5,7 +5,7 @@ Esta é uma sequencia de códigos referentes ao desafio #7DaysOfCode. Cada pasta
 1. <b>Check-Data-Types</b>: Detecta e retorna o tipo de dado em um array.
 
 ## Link Para a Página Principal
-[7-days-of-code-topaz-omega.vercel.app](7-days-of-code-topaz-omega.vercel.app)
+[https://7-days-of-code-topaz-omega.vercel.app/](https://7-days-of-code-topaz-omega.vercel.app/)
 
 ## Tecnologias
 <div>
