@@ -1,0 +1,102 @@
+:root
+{
+    --background-color: #0f0f0f;
+    --text-color: #7fff7f;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 35px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    color: var(--text-color);
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+hr
+{
+    width: 80%;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.robot
+{
+    width: 250px;
+    height: 250px;
+}
+
+.robot-talk 
+{
+    position: relative;
+    background: #2e2e2e;
+    color: var(--text-color);
+    font-family: Arial;
+    font-size: 20px;
+    filter: drop-shadow(0px 3px 9px rgba(0, 255, 4, 0.65));
+    text-align: center;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.robot-talk:after 
+{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #2e2e2e transparent;
+    border-width: 20px 20px 0;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.respostaUsr
+{
+    background-color: var(--text-color);
+    border: 2px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #2f6627;
+    margin-top: 10px;
+}
+
+.respostaUsr:hover 
+{
+    background-color: #5cbf2a;
+}
+
+.respostaUsr:active
+{
+    position: relative;
+    top: 1px;
+}
