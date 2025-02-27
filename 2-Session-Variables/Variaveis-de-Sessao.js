@@ -16,7 +16,7 @@ function answers()
     {
         if(document.getElementById("respostas").value == "")
         {
-            document.getElementById("robot-talk").innerHTML = "O campo está vazio...<br><br>Consegue ver o retângulo branco debaixo de mim?";
+            document.getElementById("robot-talk").innerHTML = "O campo está vazio...<br><br>Consegue ver o retângulo branco abaixo de mim?";
         }
         else
         {
