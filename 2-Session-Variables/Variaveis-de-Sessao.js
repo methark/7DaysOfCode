@@ -5,7 +5,6 @@
 // Variáveis Globais
 // Usuario [nome][idade][linguagem-de-programação][gosta] (Array que simula um SGBD e evita a redundância de código)
 let usr = ["","","",""];
-let respostas = ["Muito bem, " + usr + "! Quantos anos você tem?"];
 
 // Início do programa
 document.getElementById("robot-talk").innerHTML = "Olá!!! Para entrar na MATRIX, você deve me responder algumas coisas...<br><br>Qual o seu nome?";
