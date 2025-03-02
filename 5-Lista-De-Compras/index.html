@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <form id="shoppingForm">
+            <input type="text" id="itemName" placeholder="Nome do item" required>
+            <select id="itemSection" required>
+                <option value="" disabled selected>Selecione a seção</option>
+                <option value="Hortifruti">Hortifruti</option>
+                <option value="Padaria">Padaria</option>
+                <option value="Carnes">Carnes</option>
+                <option value="Laticínios">Laticínios</option>
+                <option value="Bebidas">Bebidas</option>
+                <option value="Limpeza">Limpeza</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="shoppingList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
