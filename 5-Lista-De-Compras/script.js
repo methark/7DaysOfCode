@@ -1,3 +1,6 @@
+// Aplicação que permite ao usuário inserir ou remover itens de uma lista da compras. Cada item possui seu respectivo local dentro do supermercado.
+// Por Methark - Arthur Braga
+
 // Array para armazenar os itens da lista
 let shoppingList = [];
 
